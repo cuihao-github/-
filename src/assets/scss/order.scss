@@ -1,0 +1,179 @@
+.order {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+
+	.s {
+		color: red;
+		background-color: red;
+	}
+
+	> .news {
+		margin-top: 10px;
+		padding: 0 16px;
+		justify-content: space-between;
+
+		> .left {
+			color: #666;
+			font-size: 16px;
+		}
+
+		.address {
+			font-size: 14px;
+		}
+
+		.time {
+			margin-top: 14px;
+			font-size: 20px;
+			font-weight: bold;
+			color: #333;
+		}
+
+		.date {
+			margin-top: 14px;
+			font-size: 14px;
+		}
+
+		> .middle {
+			color: #666;
+			font-size: 14px;
+
+			> .plane {
+				margin-top: 14px;
+				color: #333;
+			}
+
+			> .time-len {
+				margin-top: 18px;
+			}
+		}
+
+		> .right {
+			color: #666;
+			font-size: 16px;
+		}
+	}
+
+	> .seat-price {
+		height: 44px;
+
+		> .price {
+			margin-left: 1em;
+			font-weight: bold;
+		}
+	}
+
+	> .input-ticket {
+		> .lists {
+			border-top: 2px solid #ccc;
+
+			> .item {
+				margin-top: 20px;
+				height: 44px;
+
+				> .title {
+					margin-left: 32px;
+					width: 3em;
+				}
+
+				> .span {
+					margin-left: 20px;
+					height: 60%;
+					width: 1px;
+					background-color: #666;
+				}
+
+				> .in {
+					flex: 1;
+					text-indent: 1em;
+					border: none;
+					display: inline-block;
+					height: 100%;
+					outline: none;
+				}
+			}
+		}
+	}
+
+	> .tickets {
+		height: 48px;
+		justify-content: center;
+
+		.ticket {
+			height: 100%;
+			padding: 0 20px;
+			border: 1px solid #999;
+			border-radius: 6px;
+		}
+
+		> .cancel-ticket {
+			margin-left: 20px;
+		}
+	}
+
+	> .select-seat {
+		color: #666;
+
+		> .title {
+			height: 44px;
+			border-bottom: 2px solid #999;
+			justify-content: space-between;
+		}
+
+		> .seat-list {
+			height: 60px;
+			justify-content: space-around;
+
+			.seat-item {
+				width: 20px;
+				height: 20px;
+				text-align: center;
+				line-height: 20px;
+				background-color: #333;
+				color: #fff;
+				cursor: pointer;
+			}
+
+			> .select {
+				background-color: #00c9e2;
+			}
+		}
+
+		> .p {
+			font-size: 14px;
+		}
+	}
+
+	> .toast {
+		font-size: 13px;
+		color: #000;
+
+		p {
+			margin-top: 0.5em;
+			line-height: 1.2em;
+		}
+	}
+
+	> .submit {
+		margin-top: 20px;
+		justify-content: space-between;
+
+		> .sum {
+			font-size: 16px;
+			font-weight: bold;
+			> span {
+				font-size: 12px;
+				color: #ff8300;
+				vertical-align: bottom;
+			}
+		}
+
+		> .btn {
+			width: 140px;
+			height: 44px;
+			background-color: #ff8300;
+			border-radius: 8px;
+			color: #fff;
+		}
+	}
+}

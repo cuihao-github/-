@@ -1,0 +1,143 @@
+.train-detail {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+
+	> .news {
+		margin-top: 10px;
+		padding: 0 16px;
+		justify-content: space-between;
+
+		> .left {
+			color: #666;
+			font-size: 16px;
+		}
+
+		.address {
+			font-size: 14px;
+		}
+
+		.time {
+			margin-top: 14px;
+			font-size: 20px;
+			font-weight: bold;
+			color: #333;
+		}
+
+		.date {
+			margin-top: 14px;
+			font-size: 14px;
+		}
+
+		> .middle {
+			color: #666;
+			font-size: 14px;
+
+			> .plane {
+				margin-top: 14px;
+				color: #333;
+			}
+
+			> .time-len {
+				margin-top: 18px;
+			}
+		}
+
+		> .right {
+			color: #666;
+			font-size: 16px;
+		}
+	}
+
+	> .seat-list {
+		> .item {
+			margin-top: 14px;
+
+			> .up {
+				height: 44px;
+				color: #333;
+
+				> .seat {
+					margin-left: 16px;
+					font-size: 20px;
+				}
+
+				> .price {
+					margin-left: 25px;
+					font-weight: bold;
+				}
+
+				> .yp {
+					margin-left: 120px;
+					font-size: 14px;
+				}
+
+				> .btn {
+					margin-left: 16px;
+					width: 48px;
+					height: 24px;
+					border: 1px solid #666;
+					border-radius: 4px;
+					background: transparent;
+					font-size: 14px;
+					color: #666;
+				}
+			}
+
+			> .down {
+				height: 0px;
+				overflow: hidden;
+				transition: all 1s ease;
+
+				> .one,
+				> .two {
+					height: 54px;
+					padding: 0 14px;
+					justify-content: space-between;
+
+					.btn {
+						width: 48px;
+						height: 24px;
+						font-size: 14px;
+						text-align: center;
+						line-height: 24px;
+						color: #feb900;
+						border: 1px solid #feb900;
+						border-radius: 4px;
+						background-color: transparent;
+					}
+				}
+
+				.img {
+					width: 24px;
+					height: 26px;
+				}
+				.img1 {
+					background-color: #feb900;
+				}
+
+				.img2 {
+					background-color: #b3cee4;
+				}
+
+				.buy {
+					flex: 1;
+					margin-left: 18px;
+
+					> .top {
+						font-size: 14px;
+					}
+
+					> .bottom {
+						margin-top: 10px;
+						font-size: 12px;
+					}
+				}
+			}
+
+			> .down-open {
+				height: 108px;
+			}
+		}
+	}
+}

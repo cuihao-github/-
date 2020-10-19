@@ -1,0 +1,90 @@
+.index {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+	color: #333;
+	background-color: #fff;
+
+	> .top-bg {
+		width: 100%;
+		height: 126px;
+		background: url("../images/index/top_title.png");
+	}
+
+	.main {
+		position: relative;
+		top: -74px;
+		width: 360px;
+		height: 270px;
+		padding: 0 24px;
+		background-color: #eee;
+		border-radius: 8px;
+		box-shadow: 2px 5px 5px #ccc;
+
+		> .from-to {
+			width: 100%;
+			margin-top: 26px;
+			justify-content: space-between;
+			color: #333;
+
+			> .address {
+				font-size: 24px;
+				cursor: pointer;
+			}
+
+			.exchange {
+				font-size: 24px;
+				cursor: pointer;
+			}
+		}
+
+		> .date {
+			margin-top: 22px;
+			width: 100%;
+			height: 57px;
+			cursor: pointer;
+
+			> .year-month {
+				font-size: 20px;
+			}
+
+			> .day {
+				margin-left: 10px;
+				font-size: 14px;
+			}
+		}
+
+		> .only-train {
+			margin-top: 23px;
+			width: 100%;
+			justify-content: space-between;
+
+			> .box {
+				> .yuan {
+					width: 16px;
+					height: 16px;
+					background-color: red;
+					border-radius: 50%;
+				}
+
+				> .text {
+					margin-left: 5px;
+					font-size: 12px;
+					color: #555;
+				}
+			}
+		}
+
+		> .btn {
+			display: block;
+			width: 100%;
+			height: 40px;
+			background-color: #ff8300;
+			margin: 0 auto;
+			margin-top: 30px;
+			border-radius: 20px;
+			color: #fff;
+			font-size: 16px;
+		}
+	}
+}

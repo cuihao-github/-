@@ -1,0 +1,108 @@
+.city-list {
+	position: relative;
+	width: 375px;
+	margin: 0 auto;
+	color: #333;
+
+	> .top {
+		width: 100%;
+		height: 44px;
+		padding: 4px 16px;
+		background: #00c9e2;
+		color: #fff;
+
+		> .back {
+			font-size: 24px;
+			cursor: pointer;
+		}
+
+		> .search {
+			margin-left: 20px;
+			width: 312px;
+			height: 36px;
+			color: #ccc;
+			background: #fff;
+			border-radius: 4px;
+
+			> .icon-search {
+				margin-left: 8px;
+				font-size: 16px;
+			}
+
+			> .in {
+				flex: 1;
+				height: 100%;
+				border: none;
+				outline: none;
+				text-indent: 0.5em;
+				background: transparent;
+			}
+
+			> .icon-cancel {
+				margin-right: 16px;
+			}
+		}
+	}
+
+	> .data-wrapper {
+		width: 100%;
+
+		> .data-list {
+			flex: 1;
+
+			> .list {
+				margin-top: 10px;
+				padding: 0 16px;
+				width: 100%;
+
+				> .city-wrapper {
+					margin-left: 49px;
+
+					> .city {
+						height: 36px;
+						line-height: 36px;
+						cursor: pointer;
+						border-top: 1px solid #ccc;
+						border-bottom: 1px solid #ccc;
+					}
+					> .city:nth-of-type(1) {
+						border: none;
+					}
+					> .city:nth-last-of-type(1) {
+						border: none;
+					}
+				}
+			}
+		}
+
+		> .letter-wrapper {
+			width: 12px;
+			position: absolute;
+			position: s;
+			right: 8px;
+			top: 0px;
+			font-size: 20px;
+			font-size: 12px;
+
+			> .item {
+				margin-top: 8px;
+				cursor: pointer;
+			}
+		}
+	}
+
+	> .letter-wrapper {
+		width: 12px;
+		position: absolute;
+		// position: sticky;
+		right: 8px;
+		top: 44px;
+		font-size: 12px;
+		// font-size: 20px;
+
+		> .item {
+			margin-top: 8px;
+			cursor: pointer;
+		}
+	}
+}

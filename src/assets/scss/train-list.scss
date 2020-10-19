@@ -1,0 +1,110 @@
+.train-list {
+	width: 375px;
+	height: 667px;
+	margin: 0 auto;
+
+	> .date-wrapper {
+		height: 45px;
+		color: #333;
+		font-size: 14px;
+
+		> .before,
+		> .after,
+		> .date {
+			cursor: pointer;
+		}
+
+		> .before {
+			margin-left: 16px;
+		}
+
+		> .date {
+			margin-left: 82px;
+		}
+
+		> .after {
+			margin-left: 76px;
+		}
+	}
+
+	> .data {
+		cursor: pointer;
+
+		.item {
+			height: 68px;
+
+			> .time {
+				margin-left: 16px;
+				font-size: 14px;
+				color: #333;
+
+				> .bottom {
+					margin-top: 16px;
+					color: #666;
+				}
+			}
+
+			> .address {
+				margin-left: 22px;
+				font-size: 14px;
+				color: #333;
+				vertical-align: middle;
+
+				> .bottom {
+					margin-top: 6px;
+
+					> .text {
+						color: #999;
+					}
+				}
+
+				.text {
+					margin-left: 4px;
+					display: inline-block;
+					height: 20px;
+					vertical-align: middle;
+				}
+
+				.yuan {
+					display: inline-block;
+					width: 20px;
+					height: 20px;
+					border: 1px solid #00c9e2;
+					border-radius: 50%;
+					font-size: 12px;
+					text-align: center;
+					color: #00c9e2;
+					vertical-align: middle;
+				}
+			}
+
+			> .train-number {
+				margin-left: 46px;
+				font-size: 18px;
+				font-weight: bold;
+			}
+
+			> .price {
+				display: flex;
+				flex: 1;
+				margin-right: 10px;
+				flex-direction: column;
+				align-items: flex-end;
+
+				> .price {
+					font-size: 18px;
+					color: #f89c1e;
+				}
+
+				> .amount {
+					margin-top: 16px;
+					color: #888;
+
+					> .special {
+						color: #f89c1e;
+					}
+				}
+			}
+		}
+	}
+}

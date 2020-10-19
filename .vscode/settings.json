@@ -1,0 +1,16 @@
+// {
+//     "files.exclude": {
+//         "**/node_modules": true,
+//         "**/config": true,
+//         "**/scripts": true,
+//         "**/README.md": true,
+//         "**/yarn-error.log": true,
+//         "**/yarn.lock": true,
+//         "**/.gitignore": true,
+//         "**/public": true,
+//         "**/build": true,
+//         "**/src/serviceWorker.js": true,
+//         "**/src/setupTests.js": true,
+//         "**/tsconfig.json":true,
+//     }
+// }

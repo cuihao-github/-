@@ -1,0 +1,29 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	line-height: 1em;
+}
+
+html,
+body,
+#root {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+ul,
+li {
+	list-style: none;
+}
