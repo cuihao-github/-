@@ -9,6 +9,7 @@ import PropTypes from "prop-types";
 import "../assets/scss/train-list.scss";
 import {
 	UpdateDateByTrainList,
+	UpdateListInTrainList,
 	UpdateSelectTrain,
 } from "../store/train-list/actions";
 import { pageNumber } from "../conf/page-number";
@@ -242,6 +243,13 @@ const TrainList = function TrainList({
 			);
 		}
 	}, []);
+
+	// 初始化store中的date
+	useEffect(() => {
+		dispatch(
+			UpdateListInTrainList(`${yearMonthDay[1]}月${yearMonthDay[2]}日`),
+		);
+	}, [yearMonthDay]);
 
 	return (
 		<div className="train-list">

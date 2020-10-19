@@ -1,6 +1,8 @@
+import { stat } from "fs";
 import {
 	Update_Date_ByTrainList,
 	Update_From_where_By_TrainList,
+	Update_List_In_Train_list,
 	Update_Select_Train,
 } from "./actions";
 
@@ -8,7 +10,7 @@ const defaultState = {
 	title: "车次列表",
 	list: [
 		{
-			date: "10月19日",
+			date: "10月18日",
 			trains: [
 				{
 					startTime: "14:00",
@@ -69,6 +71,13 @@ export default function TrainListReducer(state = defaultState, actions) {
 	// 修改是从哪个页面进入
 	if (type === Update_From_where_By_TrainList) {
 		return { ...state, fromWhereByTrainList: value };
+	}
+
+	// 更新时间
+	if (type === Update_List_In_Train_list) {
+		let list = state.list;
+		list[0].date = value;
+		return { ...state, list };
 	}
 
 	return state;

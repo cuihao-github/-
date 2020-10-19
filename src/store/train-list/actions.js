@@ -18,3 +18,9 @@ export const UpdateFromWhereByTrainList = (from) => ({
 	type: Update_From_where_By_TrainList,
 	value: from,
 });
+
+export const Update_List_In_Train_list = "update_list_in_train_list";
+export const UpdateListInTrainList = (date) => ({
+	type: Update_List_In_Train_list,
+	value: date,
+});
